@@ -1,0 +1,11 @@
+*{
+      padding: 0%;
+      margin: 0%;
+}
+
+.formData{
+      display: grid;
+      width: 500px;
+      grid-template-columns: 1fr;
+      margin: auto;
+}
