@@ -4,24 +4,23 @@
 }
 
 .mainDiv {
-      border: 1px solid blue;
-      /* position: absolute; */
-      display: flex;
+      border: 3px solid white;
       width: 1440px;
       height: 901px;
-      margin: auto;
-      align-items: center;
-      justify-content: center;
+      margin:50px auto;
+
+}
+.mainDiv:hover{
+      border: 3px solid #2666CF;
+
 }
 
 
 .secondDiv {
-      /* position: absolute; */
-      border: 1px solid red;
+      border: 1px solid white;
       width: 450px;
       height: 650px;
-      gap: 50px;
-      margin: auto;
+      margin:50px auto;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
@@ -36,13 +35,12 @@
 
 
 .formData {
-      /* border: 1px solid black; */
       display: grid;
       width: 350px;
       grid-template-columns: 1fr;
       margin: auto;
       gap: 15px;
-      /* padding: 50px; */
+
 }
 
 .inputData {
@@ -77,4 +75,10 @@
 .termDiv{
     text-align: center;
     margin-top:50px;  
+}
+
+.logo2{
+      position: relative;
+      left: 8%;
+       top: 5%;
 }
