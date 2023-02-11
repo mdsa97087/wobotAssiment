@@ -19,17 +19,18 @@
       /* position: absolute; */
       border: 1px solid red;
       width: 450px;
-      height: 600px;
+      height: 650px;
       gap: 50px;
       margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
 .secondFirstDiv {
       text-align: center;
       width: 300px;
-      margin: auto;
-      gap: 100px;
+      margin:30px auto;
+     
 
 }
 
@@ -68,5 +69,12 @@
       background-color: #2666CF;
       color: white;
       border: none;
+      height: 50px;
       padding: 0px 20px;
+      font-size: 1.5rem;
+}
+
+.termDiv{
+    text-align: center;
+    margin-top:50px;  
 }
